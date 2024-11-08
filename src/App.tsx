@@ -4,6 +4,7 @@ import Header from './components/Header'
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login'
 import Register from './pages/Register'
+import AgregarVehiculo from './pages/vehiculo/agregarVehiculo';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/agregarVehiculo" element={<AgregarVehiculo />} />
           </Routes>
         </main>
       </div>
