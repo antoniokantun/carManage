@@ -3,7 +3,7 @@ const Home = () => {
     return (
       <div className="min-h-screen flex flex-col bg-white">
         {/* Header/Nav */}
-        {/* <header className="bg-gray-200 p-4">
+        <header className="bg-gray-200 p-4">
           <div className="container mx-auto flex justify-between items-center">
             <div className="font-bold text-xl">Logo</div>
             <nav className="flex gap-6">
@@ -14,7 +14,7 @@ const Home = () => {
               <button className="hover:text-gray-600">Cerrar sesión</button>
             </nav>
           </div>
-        </header> */}
+        </header>
   
         {/* Main Content */}
         <main className="container mx-auto px-4 py-8 flex-1">
